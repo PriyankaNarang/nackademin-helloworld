@@ -6,9 +6,6 @@ name: Docker
 # documentation.
 
 on:
-  pull_request:
-   tags: 
-   - 'v*' # Match tags starting with 'v'
   push:
    tags: 
    - 'v*' # Match tags starting with 'v'
