@@ -7,11 +7,11 @@ name: Docker
 
 on:
   pull_request:
-    branches:
-    - master
+   tags: 
+   - 'v*' # Match tags starting with 'v'
   push:
-    branches:
-    - dev/*
+   tags: 
+   - 'v*' # Match tags starting with 'v'
     
 env:
   # Use docker.io for Docker Hub if empty
